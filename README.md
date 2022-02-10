@@ -19,5 +19,6 @@ Create and Sign Msix installer for Flutter Windows-build Files
 Msix .A command-line tool that create Msix installer for your flutter windows-build files.
 
 - [flutter windows-build files](https://pub.dev/packages/msix)
+
 PS c:\src\flutter_project\> flutter build windows
 PS c:\src\flutter_project\> flutter pub run msix:create
