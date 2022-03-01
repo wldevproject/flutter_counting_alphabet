@@ -1,18 +1,15 @@
+import 'package:ex1_getx_get_api/app/routes/app_pages.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../controller/main_view_model.dart';
-import 'grid_list_view.dart';
+import '../controllers/home_controller.dart';
 
-class MyHomePage extends StatelessWidget {
-  MyHomePage({Key? key, required this.title}) : super(key: key);
-  final String title;
-  final _viewModel = Get.put(MainController());
-
+class HomeView extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(title),
+        title: Text('HomeView'),
+        centerTitle: true,
       ),
       body: Center(
         child: Column(
@@ -22,7 +19,7 @@ class MyHomePage extends StatelessWidget {
               'Tentukan berapa banyak kotak yang di cetak:',
             ),
             Obx(() => Text(
-                  _viewModel.counter.toString(),
+                  controller.counter.toString(),
                   style: Theme.of(context).textTheme.headline4,
                 )),
             const SizedBox(height: 10),
@@ -32,7 +29,7 @@ class MyHomePage extends StatelessWidget {
                 children: [
                   Flexible(
                     child: ElevatedButton(
-                      onPressed: () => _viewModel.kurangHitung(),
+                      onPressed: () => controller.kurangHitung(),
                       child: buildText(text: "-"),
                       style: ElevatedButton.styleFrom(
                           primary: Colors.cyan,
@@ -45,7 +42,7 @@ class MyHomePage extends StatelessWidget {
                   const VerticalDivider(width: 10),
                   Flexible(
                     child: ElevatedButton(
-                      onPressed: () => _viewModel.tambahHitung(),
+                      onPressed: () => controller.tambahHitung(),
                       child: buildText(text: "+"),
                       style: ElevatedButton.styleFrom(
                           primary: Colors.cyan,
@@ -59,8 +56,7 @@ class MyHomePage extends StatelessWidget {
               ),
               const SizedBox(height: 10),
               ElevatedButton(
-                  onPressed: () => Get.to(const GridListDemo(),
-                      transition: Transition.rightToLeft),
+                  onPressed: () => Get.toNamed(Routes.GRID_LIST),
                   style: ElevatedButton.styleFrom(
                       primary: Colors.green,
                       padding: const EdgeInsets.symmetric(

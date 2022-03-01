@@ -1,6 +1,8 @@
 import 'package:get/get.dart';
 
-class MainController extends GetxController {
+class HomeController extends GetxController {
+  //TODO: Implement HomeController
+
   var counter = 0.obs;
   List alphabet = [
     "A",
@@ -30,6 +32,19 @@ class MainController extends GetxController {
     "Y",
     "Z"
   ];
+
+  @override
+  void onInit() {
+    super.onInit();
+  }
+
+  @override
+  void onReady() {
+    super.onReady();
+  }
+
+  @override
+  void onClose() {}
 
   void tambahHitung() {
     if (counter < alphabet.length) counter++;
