@@ -1,7 +1,6 @@
 import 'package:get/get.dart';
 
 class GridListController extends GetxController {
-  //TODO: Implement GridListController
 
   int counter = 0;
   var alphabet = [];

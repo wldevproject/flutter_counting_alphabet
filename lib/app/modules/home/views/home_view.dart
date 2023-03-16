@@ -69,16 +69,6 @@ class HomeView extends GetView<HomeController> {
                     child: const Text("Cak Hasil")),
                 const SizedBox(height: 10),
                 ElevatedButton(
-                    onPressed: () => Get.toNamed(Routes.LAYOUT_BUILDER),
-                    style: ElevatedButton.styleFrom(
-                        primary: Colors.green,
-                        padding: const EdgeInsets.symmetric(
-                            horizontal: 30, vertical: 20),
-                        textStyle: const TextStyle(
-                            fontSize: 15, fontWeight: FontWeight.bold)),
-                    child: const Text("Tes Layar")),
-                const SizedBox(height: 10),
-                ElevatedButton(
                     onPressed: () => Get.toNamed(Routes.BATERAI_MAP, arguments: {
                       'counter': controller.counter.value,
                       'alphabet': controller.alphabet,
@@ -90,6 +80,16 @@ class HomeView extends GetView<HomeController> {
                         textStyle: const TextStyle(
                             fontSize: 15, fontWeight: FontWeight.bold)),
                     child: const Text("Baterai Map")),
+                const SizedBox(height: 10),
+                ElevatedButton(
+                    onPressed: () => Get.toNamed(Routes.LAYOUT_BUILDER),
+                    style: ElevatedButton.styleFrom(
+                        primary: Colors.green,
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 30, vertical: 20),
+                        textStyle: const TextStyle(
+                            fontSize: 15, fontWeight: FontWeight.bold)),
+                    child: const Text("Tes Layar")),
                 const SizedBox(height: 10),
                 ElevatedButton(
                     onPressed: () => Get.toNamed(Routes.SLIVER_TEST),
