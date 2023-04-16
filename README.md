@@ -7,14 +7,16 @@ Counting Alphabet with Dynamic feature.
 <img src="https://github.com/wldevproject/flutter_counting_alphabet/blob/master/media/video.gif" width="250px">
 </p>
 
-## Getting Started
-
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Technologies
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+The following tools were used in this project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [GetX](https://pub.dev/packages/get)
+- [Flutter GetX Doc](https://chornthorn.github.io/getx-docs/)
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
