@@ -44,3 +44,20 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+macos/Flutter/ephemeral/Flutter-Generated.xcconfig
+macos/Flutter/ephemeral/flutter_export_environment.sh
+macos/Pods/Local Podspecs/FlutterMacOS.podspec.json
+macos/Pods/Pods.xcodeproj/xcuserdata/sundayaapple.xcuserdatad/xcschemes/FlutterMacOS.xcscheme
+macos/Pods/Pods.xcodeproj/xcuserdata/sundayaapple.xcuserdatad/xcschemes/Pods-Runner.xcscheme
+macos/Pods/Pods.xcodeproj/xcuserdata/sundayaapple.xcuserdatad/xcschemes/xcschememanagement.plist
+macos/Pods/Target Support Files/FlutterMacOS/FlutterMacOS.debug.xcconfig
+macos/Pods/Target Support Files/FlutterMacOS/FlutterMacOS.release.xcconfig
+macos/Pods/Target Support Files/Pods-Runner/Pods-Runner-acknowledgements.markdown
+macos/Pods/Target Support Files/Pods-Runner/Pods-Runner-acknowledgements.plist
+macos/Pods/Target Support Files/Pods-Runner/Pods-Runner-dummy.m
+macos/Pods/Target Support Files/Pods-Runner/Pods-Runner-Info.plist
+macos/Pods/Target Support Files/Pods-Runner/Pods-Runner-umbrella.h
+macos/Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig
+macos/Pods/Target Support Files/Pods-Runner/Pods-Runner.modulemap
+macos/Pods/Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig
+macos/Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig
