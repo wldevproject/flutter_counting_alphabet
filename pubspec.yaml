@@ -2,23 +2,23 @@ name: ex1_getx_get_api
 version: 1.0.0+1
 publish_to: none
 description: A new Flutter project.
-environment: 
+environment:
   sdk: '>=2.16.0-80.1.beta <3.0.0'
 
-dependencies: 
-  build_runner: ^2.1.7
-  cupertino_icons: ^1.0.2
-  json_serializable: ^6.1.4
-  msix: ^2.8.15
-  get: 4.6.1
-  flutter: 
+dependencies:
+  build_runner: ^2.3.3
+  cupertino_icons: ^1.0.5
+  json_serializable: ^6.6.1
+  msix: ^3.10.1
+  get: ^4.6.5
+  flutter:
     sdk: flutter
 
-dev_dependencies: 
-  flutter_lints: ^1.0.0
-  flutter_test: 
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_test:
     sdk: flutter
 
-flutter: 
+flutter:
   uses-material-design: true
 
