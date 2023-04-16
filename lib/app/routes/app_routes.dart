@@ -6,6 +6,7 @@ abstract class Routes {
 
   static const HOME = _Paths.HOME;
   static const GRID_LIST = _Paths.GRID_LIST;
+  static const REVERSE_LIST = _Paths.REVERSE_LIST;
 }
 
 abstract class _Paths {
@@ -13,4 +14,5 @@ abstract class _Paths {
 
   static const HOME = '/home';
   static const GRID_LIST = '/grid-list';
+  static const REVERSE_LIST = '/reverse-list';
 }
