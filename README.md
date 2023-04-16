@@ -1,4 +1,4 @@
-# ex1_getx_get_api
+# counting_alphabet
 
 A new Flutter project.
 
