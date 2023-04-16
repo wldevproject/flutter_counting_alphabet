@@ -1,6 +1,11 @@
 # counting_alphabet
 
-A new Flutter project.
+Counting Alphabet with Dynamic feature.
+
+### :camera: Media
+<p align="center">
+<img src="https://github.com/wldevproject/flutter_counting_alphabet/blob/master/media/video.gif" width="250px">
+</p>
 
 ## Getting Started
 
